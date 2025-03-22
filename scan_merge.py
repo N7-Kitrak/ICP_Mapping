@@ -83,7 +83,7 @@ class PauseAndCapture(Node):
             self.get_logger().warn(f"Transform failed after delay: {str(ex)}")
 
     #TODO: Complete the rotate_point_euler in transform_pointcloud2 functios
-
+    #Note that ros iherently processes point clouds in 3d even though the robot's point cloud is in 2d.
 
     def transform_pointcloud2(self, cloud_msg, transform):
         """Transform a point cloud using Euler angles from a given quaternion."""
