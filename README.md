@@ -1,5 +1,5 @@
 # ICP_slam
-Startee code for HW4 B
+Starter code for HW4 B
 
 
 ## Time Sync notes : here is the link to the guide to sync clocks of the turtlebot and remote pc.
